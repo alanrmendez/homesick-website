@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Watch the trailer for Homesick on the official movie site.">
+  <!-- need google site verification <meta name="google-site-verification" content="rSZqKI7K8Newy7gkV_CR6lXhbPPFsQPVOcWl9bVre3E"> -->
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!--Spectral Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Spectral" rel="stylesheet">
+
+  <!--CSS Stylesheet-->
+  <link rel="stylesheet" href="synopsis.css">
+
+  <!--Font Awesome Kit-->
+  <script src="https://kit.fontawesome.com/74da048002.js" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+  </script>
+
+  <title>Homesick Short Film</title>
+ 
+ 
+</head>
+
+<body>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon">
+          </span>
+        </button>
+      </a>
+
+      <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasTitle"></h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="synopsis.html">Synopsis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="crew.html">Cast & Crew</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!--main key art-->
+  <div class="container-fluid bg-overlay">
+    <div class="row" id="home">
+      <!--Deirdre headshot-->
+      <!--
+<div class="col-6">
+        <img id="deirdre" src="img/Deirdre-low-res2.png" alt="Homesick protagonist">
+      </div>
+      -->
+      
+      <div class="col">
+        <!--Synopsis Title-->
+        <div class="text-center">
+          <h1 id="synopsisTitle">Synopsis</h1>
+          <p id="synopsisText">
+            After the harrowing loss of her boyfriend, Deirdre's grief leaves her haunted by the past. 
+            <br>
+            When she comes home from work one night, otherworldly encounters grow more and more threatening, 
+            <br>
+            forcing her to grapple with the encroaching danger &mdash; both around her and within.
+          </p>
+
+          <!--Trailer Modal-->
+          <button id="trailerButton" type="button" class="btn btn-dark" data-bs-toggle="modal"
+            data-bs-target="#trailerModal">
+            Watch Trailer
+          </button>
+
+          <div class="modal" id="trailerModal" tabindex="-1" aria-labelledby="trailerModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <!--<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>-->
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!--width="560" height="315"-->
+                  <div class="ratio ratio-16x9">
+                    <iframe id="trailerVideo" src="https://www.youtube.com/embed/Evj6JHSfSR0?autoplay=1"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                      allowfullscreen></iframe>
+                  </div>
+                </div>
+                <!--
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              -->
+              </div>
+
+            </div>
+          </div>
+          <!--End Trailer Modal-->
+        </div>
+        <!--End HOMESICK Title-->
+        <!--
+ <div class="text-end" id="imdb">
+          <a href="# target=" _blank">
+            <i class="fab fa-brands fa-imdb fa-4x center" style="padding-right: 60px; opacity: 0.6;"></i>
+          </a>
+        </div>
+        -->
+       
+      </div>
+    </div>
+
+  </div>
+  <!--End Main Key Art-->
+
+
+
+  <!--FOOTER-->
+  <div class="container-fluid" id="footer">
+    <div class="row align-items-end" id="copyright">
+      <div class="col d-flex justify-content-center">
+        <span><small>&copy; 2022 Alan Mendez. ALL RIGHTS RESERVED.</small></span>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+
+<script src="synopsis.js" defer></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+* {
+  font-family: 'Spectral', serif;
+}
+
+nav {
+  background: rgb(0, 0, 0);
+}
+
+a.navbar-brand {
+  font-size: 37px;
+  font-weight: 700;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+div {
+  color: rgb(247, 251, 255);
+}
+
+
+#home {
+  position: relative;
+  background: rgb(0, 0, 0);
+  //text-shadow: 1px 1px 2px black;
+}
+
+img {
+  //margin-left: 57px;
+  //margin-right: auto;
+  display: inline;
+  max-width: 100%;
+  width: 446px;
+  height: auto;
+}
+
+
+#poster {
+  margin-top: 14px;
+  margin-bottom: -100px;
+}
+
+#photo {
+  margin-top: 200px;
+  margin-bottom: 0;
+}
+
+
+#openDoor {
+  margin-top: 150px;
+  margin-bottom: 0;
+}
+
+
+#closet {
+  margin-top: 150px;
+  margin-bottom: 0;
+}
+
+
+#homesick {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  //margin-top: 100px;
+  //margin-left: 50px;
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+}
+
+#crewTitle {
+  padding-bottom: 25px;
+  opacity: 0.7;
+}
+
+#crewList {
+  opacity: 0.7;
+}
+
+
+h2 {
+font-size: 25px;
+}
+
+
+p {
+  font-size: 16px;
+  //line-height: 2;
+  padding-bottom: 20px;
+}
+
+.modal-content {
+  background-color: black;
+}
+
+
+.modal-content iframe {
+  margin: 0 auto;
+  display: block;
+}
+
+
+.modal-header {
+  border-color: black;
+}
+
+
+#trailerButton {
+  font-size: 20px;
+  border-radius: 100px;
+  padding: 5px 10px;
+}
+
+
+#tagline {
+  //margin-top: 50px;
+  //margin-left: 100px;
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+}
+
+#imdb {
+  //padding-top: 100px;
+}
+
+i {
+  //text-decoration: none;
+  color: rgb(247, 251, 255);
+}
+
+
+.copy {
+  font-style: italic;
+}
+
+
+#footer {
+  position: relative;
+  //block-size: 100px;
+  background: rgb(0, 0, 0);
+}
+
+
+#footer .container-fluid {
+  justify-content: center;
+}
+
+#copyright {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+#footer a:hover {
+  color: #6c757d;
+}
+
+
+.icon {
+  //text-align: center;
+  //display: inline;
+}
+
+
+.center {
+  //text-align: center;
+  //width: 100%;
+  padding: 20px;
+}
+
+
+#icons span {
+  display: inline;
+  float: none;
+}
+

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Watch the trailer for Homesick on the official movie site.">
+  <!-- need google site verification <meta name="google-site-verification" content="rSZqKI7K8Newy7gkV_CR6lXhbPPFsQPVOcWl9bVre3E"> -->
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!--Spectral Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Spectral" rel="stylesheet">
+
+  <!--CSS Stylesheet-->
+  <link rel="stylesheet" href="crew.css">
+
+  <!--Font Awesome Kit-->
+  <script src="https://kit.fontawesome.com/74da048002.js" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+  </script>
+
+  <title>Homesick Short Film</title>
+
+  <script>
+    $(document).ready(function () {
+      var url = $("#trailerVideo").attr('src');
+      $("#trailerModal").on('hide.bs.modal', function () {
+        $("#trailerVideo").attr('src', '');
+      });
+      $("#trailerModal").on('show.bs.modal', function () {
+        $("#trailerVideo").attr('src', url);
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon">
+          </span>
+        </button>
+      </a>
+
+      <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasTitle"></h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="synopsis.html">Synopsis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Cast & Crew</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--End Navbar-->
+
+
+  <!--Main Key Art-->
+  <div class="container-fluid">
+    <div class="row" id="home">
+
+      
+
+      <!--cast & crew-->
+      <div class="col-md-6 order-md-2">
+        <div class="row">
+          <div class="col">
+            <!--Cast & Crew Title-->
+            <div class="text-center">
+              <h1 id="crewTitle">Cast & Crew</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col" id="crewList">
+              <h2>Alan Mendez - Writer | Director | Producer | Composer | Co-Editor | Julio</h2>
+              <p>Alan Mendez is a New York City-based filmmaker. Specializing in the horror and psychological thriller
+                genres, Alan has served as writer-director-producer for several projects, as well as written
+                commissioned screenplays for other producers. Prior to his time behind the camera, Alan spent five years
+                working as a stage and screen actor, having performed across the country from Phoenix, Arizona to the
+                Public Theater in New York City. A multi-instrumentalist, he plays piano, guitar, upright bass,
+                accordion, mandolin, and drums. Alan is the composer half of the musical theatre writing partnership
+                Mendez & Aberman, and he has composed and produced original scores for numerous film projects. Follow
+                Alan on Instagram: @alan.r.mendez, @mendezaberman.</p>
+
+
+              <h2>Erin Bradford - Deirdre | Co-Producer</h2>
+              <p>Erin Bradford is is an actor, writer and producer based in NYC. She is the creator and writer of the
+                short pilot, <em>Plant Moms</em> (Austin Film Festival and Catalyst Content Festival official
+                selections).
+                TV/Film credits include: <em>Marvelous Mrs. Maisel</em>, <em>Plant Moms</em>, <em>Prologue</em>, and
+                <em>Dearest Stranger</em>.</p>
+
+
+              <h2>Michael J Poyntz - Cinematographer | Camera Operator</h2>
+              <p>Michael J Poyntz is... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+              <h2>Jake Parisse - Co-Editor | Colorist</h2>
+              <p>Jake Parisse is... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+              <h2>Christine Phelan - First Assistant Director | Catering | Craft Service</h2>
+              <p>Christine Phelan is... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+              <h2>Samantha Narciso - Camera Second Assistant | Data Wrangler</h2>
+              <p>Samantha Narciso is... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+              <h2>Kevin Pugh - Production Sound Mixer | Boom Operator | Sound Designer | Sound Editor</h2>
+              <p>Kevin Pugh is... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+              <h2>Tommy Walters - Gaffer | Key Grip</h2>
+              <p>Tommy Walters is... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center" id="imdb">
+          <a href="# target=" _blank">
+            <i class="fab fa-brands fa-imdb fa-4x center" style="padding-right: 60px; opacity: 0.6;"></i>
+          </a>
+        </div>
+      </div>
+      <!--end cast & crew-->
+
+      <!--stills-->
+      <div class="col-md-6 order-md-1 text-center">
+        <img id="poster" src="img/HOMESICK-poster-low-res.png" alt="Homesick poster">
+        <img id="photo" src="img/Deirdre-and-Julio-low-res.png" alt="photo on desk">
+        <img id="openDoor" src="img/Deirdre-open-door-low-res.png" alt="Deirdre peering around door">
+        <img id="closet" src="img/closet-low-res.png" alt="closet">
+      </div>
+      <!--end stills-->
+
+
+    </div>
+
+  </div>
+  <!--End Main Key Art-->
+
+
+
+  <!--FOOTER-->
+  <div class="container-fluid" id="footer">
+    <div class="row align-items-end" id="copyright">
+      <div class="col d-flex justify-content-center">
+        <span><small>&copy; 2022 Alan Mendez. ALL RIGHTS RESERVED.</small></span>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+* {
+  font-family: 'Spectral', serif;
+}
+
+
+
+
+
+nav {
+  background: rgb(0, 0, 0);
+}
+
+a.navbar-brand {
+  font-size: 37px;
+  font-weight: 700;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+div {
+  color: rgb(247, 251, 255);
+}
+
+#mainContainer {
+  background-color: black;
+}
+
+
+#home {
+  position: relative;
+  background: rgb(0, 0, 0);
+
+  opacity: 0;
+  transition: 2s;
+}
+
+
+#deirdre {
+  margin-top: -66px;
+  margin-bottom: -100px;
+  margin-left: 115px;
+  margin-right: auto;
+  display: inline;
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+}
+
+#homesick {
+  padding: 80px 25px 50px;
+  //margin-top: 100px;
+  //margin-left: 50px;
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+}
+
+
+.modal-content {
+  background-color: black;
+}
+
+
+.modal-content iframe {
+  margin: 0 auto;
+  display: block;
+}
+
+
+.modal-header {
+  border-color: black;
+}
+
+
+#trailerButton {
+  font-size: 20px;
+  border-radius: 100px;
+  padding: 5px 30px;
+}
+
+
+#tagline {
+  //margin-top: 50px;
+  //margin-left: 100px;
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+}
+
+#imdb {
+  padding-top: 215px;
+}
+
+i {
+  //text-decoration: none;
+  color: rgb(247, 251, 255);
+}
+
+
+.copy {
+  font-style: italic;
+}
+
+
+#footer {
+  position: relative;
+  //block-size: 100px;
+  background: rgb(0, 0, 0);
+}
+
+
+#footer .container-fluid {
+  justify-content: center;
+}
+
+#copyright {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+#footer a:hover {
+  color: #6c757d;
+}
+
+
+.icon {
+  //text-align: center;
+  //display: inline;
+}
+
+
+.center {
+  //text-align: center;
+  //width: 100%;
+  padding: 20px;
+}
+
+
+#icons span {
+  display: inline;
+  float: none;
+}
+
+//Synopsis.html
+
+#synopsis {
+  padding-bottom: 500px;
+}
