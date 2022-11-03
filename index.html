@@ -29,12 +29,17 @@
   <script>
     $(document).ready(function () {
       var url = $("#trailerVideo").attr('src');
-      $("#trailerModal").on('hide.bs.modal', function () {
-        $("#trailerVideo").attr('src', '');
-      });
+
+      $("#trailerVideo").attr('src', '');
+
       $("#trailerModal").on('show.bs.modal', function () {
         $("#trailerVideo").attr('src', url);
       });
+
+      $("#trailerModal").on('hide.bs.modal', function () {
+        $("#trailerVideo").attr('src', '');
+      });
+      
     });
   </script>
 </head>
@@ -92,6 +97,7 @@
           <!--<img id="tagline" src="img/HOMESICK-tagline-low-res.png" alt="Home is where the heart is.">-->
           <br>
           <br>
+
           <!--Trailer Modal-->
           <button id="trailerButton" type="button" class="btn btn-dark" data-bs-toggle="modal"
             data-bs-target="#trailerModal">
@@ -110,7 +116,7 @@
                 <div class="modal-body">
                   <!--width="560" height="315"-->
                   <div class="ratio ratio-16x9">
-                    <iframe id="trailerVideo" src="https://www.youtube.com/embed/Evj6JHSfSR0"
+                    <iframe id="trailerVideo" src="https://www.youtube.com/embed/Evj6JHSfSR0?autoplay=1"
                       title="YouTube video player" frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
                       allowfullscreen>
