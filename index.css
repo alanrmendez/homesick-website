@@ -32,12 +32,15 @@ div {
   transition: 2s;
 }
 
+#deirdreCol {
+  padding-left: 100px;
+}
 
 #deirdre {
-  margin-top: -66px;
-  margin-bottom: -100px;
-  margin-left: 115px;
-  margin-right: auto;
+  margin-top: -25px;
+  //margin-bottom: -100px;
+  //margin-left: 115px;
+  //margin-right: auto;
   display: inline;
   max-width: 100%;
   width: 500px;
