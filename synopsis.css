@@ -118,11 +118,11 @@ i {
 
 #footer {
   position: relative;
-  padding-top: 75px;
+  padding-top: 172px;   //was 75px vs 172
   //min-height: 140px;
-  block-size: 110px;
-  background: rgb(0, 0, 0);
+  block-size: 215px;
 
+  background: rgb(0, 0, 0);
 }
 
 
@@ -130,10 +130,6 @@ i {
   justify-content: center;
 }
 
-#copyright {
-  //padding-top: 65px;
-  //padding-bottom: 10px;
-}
 
 #footer a:hover {
   color: #6c757d;

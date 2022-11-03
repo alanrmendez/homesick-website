@@ -94,7 +94,6 @@ i {
 
 
 #footer {
-  
   position: relative;
   padding-top: 75px;
   //min-height: 140px;
@@ -107,10 +106,6 @@ i {
   justify-content: center;
 }
 
-#copyright {
-  //padding-top: 25px;
-  //padding-bottom: 10px;
-}
 
 #footer a:hover {
   color: #6c757d;
