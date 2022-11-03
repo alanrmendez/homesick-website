@@ -34,9 +34,8 @@ div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  //color: #fff;
-  height: 450px;
-  padding-top: 50px;
+  padding: 100px 80px;
+  //padding: 50px 80px 100px;
 }
 
 #deirdre {
@@ -118,10 +117,10 @@ i {
 
 
 #footer {
-  position: absolute;
-  bottom: 0;
-  min-height: 135px;
-  //block-size: 100px;
+  position: relative;
+  padding-top: 75px;
+  //min-height: 140px;
+  block-size: 110px;
   background: rgb(0, 0, 0);
 
 }
@@ -134,7 +133,6 @@ i {
 #copyright {
   //padding-top: 65px;
   //padding-bottom: 10px;
-  margin-top: 102px;
 }
 
 #footer a:hover {
