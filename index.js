@@ -4,4 +4,18 @@ window.onload = function(){
 }
 
 
+//trailer autoplay
+$(document).ready(function () {
+  var url = $("#trailerVideo").attr('src');
 
+  $("#trailerVideo").attr('src', '');
+
+  $("#trailerModal").on('show.bs.modal', function () {
+    $("#trailerVideo").attr('src', url);
+  });
+
+  $("#trailerModal").on('hide.bs.modal', function () {
+    $("#trailerVideo").attr('src', '');
+  });
+  
+});
