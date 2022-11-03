@@ -21,22 +21,21 @@
   <!--Font Awesome Kit-->
   <script src="https://kit.fontawesome.com/74da048002.js" crossorigin="anonymous"></script>
 
-  <script src=
-"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-    </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+  </script>
 
   <title>Homesick Short Film</title>
 
   <script>
     $(document).ready(function () {
-  var url = $("#trailerVideo").attr('src');
-  $("#trailerModal").on('hide.bs.modal', function () {
-    $("#trailerVideo").attr('src', '');
-  });
-  $("#trailerModal").on('show.bs.modal', function () {
-    $("#trailerVideo").attr('src', url);
-  });
-});
+      var url = $("#trailerVideo").attr('src');
+      $("#trailerModal").on('hide.bs.modal', function () {
+        $("#trailerVideo").attr('src', '');
+      });
+      $("#trailerModal").on('show.bs.modal', function () {
+        $("#trailerVideo").attr('src', url);
+      });
+    });
   </script>
 </head>
 
@@ -76,11 +75,11 @@
       </div>
     </div>
   </nav>
-<!--end navbar-->
+  <!--end navbar-->
 
 
   <!--main key art-->
-  <div class="container-fluid" id="mainContainer" >
+  <div class="container-fluid" id="mainContainer">
     <div class="row" id="home">
       <!--Deirdre headshot-->
       <div class="col-md-6" id="deirdreCol">
@@ -92,24 +91,29 @@
           <img id="homesick" src="img/HOMESICK-title-low-res.png" alt="Homesick">
           <!--<img id="tagline" src="img/HOMESICK-tagline-low-res.png" alt="Home is where the heart is.">-->
           <br>
+          <br>
           <!--Trailer Modal-->
           <button id="trailerButton" type="button" class="btn btn-dark" data-bs-toggle="modal"
             data-bs-target="#trailerModal">
             Watch Trailer
           </button>
-
-          <div class="modal" id="trailerModal" tabindex="-1" aria-labelledby="trailerModalLabel"
-            aria-hidden="true">
+<br>
+<br>
+          <div class="modal" id="trailerModal" tabindex="-1" aria-labelledby="trailerModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <!--<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>-->
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <!--width="560" height="315"-->
                   <div class="ratio ratio-16x9">
-                    <iframe id="trailerVideo" src="https://www.youtube.com/embed/Evj6JHSfSR0?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+                    <iframe id="trailerVideo" src="https://www.youtube.com/embed/Evj6JHSfSR0?autoplay=1"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                      allowfullscreen></iframe>
                   </div>
                 </div>
                 <!--
@@ -124,11 +128,14 @@
           <!--End Trailer Modal-->
         </div>
         <!--End HOMESICK Title-->
-        <div class="text-end" id="imdb">
+        <!--
+<div class="text-end" id="imdb">
             <a href="# target="_blank">
               <i class="fab fa-brands fa-imdb fa-4x center"></i>
             </a> 
         </div>
+        -->
+
       </div>
     </div>
 
@@ -151,7 +158,7 @@
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
     </script>
 
-<script src="index.js" defer></script>
+  <script src="index.js" defer></script>
 
 
 </body>
