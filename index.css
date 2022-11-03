@@ -3,9 +3,6 @@
 }
 
 
-
-
-
 nav {
   background: rgb(0, 0, 0);
 }
@@ -31,7 +28,6 @@ div {
 #home {
   position: relative;
   background: rgb(0, 0, 0);
-
   opacity: 0;
   transition: 2s;
 }
@@ -47,6 +43,7 @@ div {
   width: 500px;
   height: auto;
 }
+
 
 #homesick {
   padding: 80px 25px 50px;
@@ -81,26 +78,15 @@ div {
 }
 
 
-#tagline {
-  //margin-top: 50px;
-  //margin-left: 100px;
-  max-width: 100%;
-  width: 400px;
-  height: auto;
-}
-
 #imdb {
   padding-top: 215px;
+  padding-bottom: 40px;
+  padding-right: 60px;
 }
 
 i {
-  //text-decoration: none;
   color: rgb(247, 251, 255);
-}
-
-
-.copy {
-  font-style: italic;
+  opacity: 0.6;
 }
 
 
@@ -124,27 +110,3 @@ i {
   color: #6c757d;
 }
 
-
-.icon {
-  //text-align: center;
-  //display: inline;
-}
-
-
-.center {
-  //text-align: center;
-  //width: 100%;
-  padding: 20px;
-}
-
-
-#icons span {
-  display: inline;
-  float: none;
-}
-
-//Synopsis.html
-
-#synopsis {
-  padding-bottom: 500px;
-}
