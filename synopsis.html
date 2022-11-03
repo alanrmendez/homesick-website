@@ -25,19 +25,26 @@
   </script>
 
   <title>Homesick Short Film</title>
- 
+
   <script>
     $(document).ready(function () {
-  var url = $("#trailerVideo").attr('src');
-  $("#trailerModal").on('hide.bs.modal', function () {
-    $("#trailerVideo").attr('src', '');
-  });
-  $("#trailerModal").on('show.bs.modal', function () {
-    $("#trailerVideo").attr('src', url);
-  });
-});
+
+      var url = $("#trailerVideo").attr('src');
+
+      $("#trailerVideo").attr('src', '');
+
+      $("#trailerModal").on('show.bs.modal', function () {
+        $("#trailerVideo").attr('src', url);
+      });
+
+      $("#trailerModal").on('hide.bs.modal', function () {
+        $("#trailerVideo").attr('src', '');
+      });
+
+     
+    });
   </script>
- 
+
 </head>
 
 <body>
@@ -87,15 +94,15 @@
         <img id="deirdre" src="img/Deirdre-low-res2.png" alt="Homesick protagonist">
       </div>
       -->
-      
+
       <div class="col">
         <!--Synopsis Title-->
         <div class="text-center">
           <h1 id="synopsisTitle">Synopsis</h1>
           <p id="synopsisText">
-            After the harrowing loss of her boyfriend, Deirdre's grief leaves her haunted by the past. 
+            After the harrowing loss of her boyfriend, Deirdre's grief leaves her haunted by the past.
             <br>
-            When she comes home from work one night, otherworldly encounters grow more and more threatening, 
+            When she comes home from work one night, otherworldly encounters grow more and more threatening,
             <br>
             forcing her to grapple with the encroaching danger &mdash; both around her and within.
           </p>
@@ -142,7 +149,7 @@
           </a>
         </div>
         -->
-       
+
       </div>
     </div>
 
@@ -165,7 +172,7 @@
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
     </script>
 
-<script src="synopsis.js" defer></script>
+  <script src="synopsis.js" defer></script>
 
 
 </body>
